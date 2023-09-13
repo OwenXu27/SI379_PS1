@@ -11,7 +11,7 @@ for(const id of getAllHoleIds()) {
     //          2. Add the "animating-whack" class *for 500 milliseconds*
             hole.classList.add('animating-whack');
             setTimeout(() => {
-                hole.classList.remove('animating-whach')
+                hole.classList.remove('animating-whack')
             }, 500);
     //          3. Increment the score by 1 (and update the score display)
             score ++;
